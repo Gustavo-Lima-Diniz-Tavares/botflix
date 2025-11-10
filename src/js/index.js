@@ -25,7 +25,7 @@ async function handleSearch() {
         return;
     }
 
-    const response = await fetch('https://gulima.app.n8n.cloud/webhook/botflix', {
+    const response = await fetch('https://tav.app.n8n.cloud/webhook-test/botflix', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -62,3 +62,4 @@ async function handleSearch() {
     }
 
 }
+
